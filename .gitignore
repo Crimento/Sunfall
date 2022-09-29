@@ -1,0 +1,6 @@
+# everything
+/*
+# but not gitignore
+!.gitignore
+# and not config dir
+!/config
