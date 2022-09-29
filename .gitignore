@@ -2,5 +2,7 @@
 /*
 # but not gitignore
 !.gitignore
+# add license
+!LICENSE.MD
 # and not config dir
 !/config
