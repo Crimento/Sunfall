@@ -7,3 +7,5 @@ Will publish more info and modlist when it's done.
 Not sure it will be done.
 
 Expect a lot of russian and swearing
+
+More info at [Discord](https://discord.gg/rHaPnQ7) (warning, even more russian and swearing)
