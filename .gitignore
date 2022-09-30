@@ -6,3 +6,12 @@
 !LICENSE.MD
 # and not config dir
 !/config
+
+# stuff with timestamps or regenerating on each start
+config/autopickup.cfg
+config/falsetweaks_userspecific.cfg
+config/hodgepodgeEarly.properties
+config/InvTweaks.cfg
+config/splash.properties
+config/AppliedEnergistics2/CustomRecipes.cfg
+config/worldedit/worldedit.properties
