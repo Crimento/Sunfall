@@ -9,6 +9,7 @@
 
 #those can be regenerated
 config/worldedit
+config/recipes
 config/falsetweaks_userspecific.cfg
 config/InvTweaks.cfg
 config/splash.properties
