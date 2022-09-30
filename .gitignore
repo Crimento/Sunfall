@@ -4,8 +4,10 @@
 !.gitignore
 # add license
 !LICENSE.MD
+
 # and not config dir
 !/config
+!/config/*
 
 # stuff with timestamps or regenerating on each start
 config/autopickup.cfg
