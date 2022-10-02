@@ -113,11 +113,6 @@
     {
       "matchesBlock": "minecraft:coal_ore",
       "primarySubstitution": [["minecraft:diamond_ore",0,3],["minecraft:emerald_ore",0,2]],
-      "chance": 0.2
-    },
-    {
-      "matchesBlock": "minecraft:coal_ore",
-      "primarySubstitution": [["minecraft:diamond_ore",0,3],["minecraft:emerald_ore",0,2]],
       "chance": 0.5
     },
     {
