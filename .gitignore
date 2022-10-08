@@ -14,3 +14,4 @@ config/falsetweaks_userspecific.cfg
 config/InvTweaks.cfg
 config/splash.properties
 config/worldedit/worldedit.properties
+config/gregtech/materiallist.log
