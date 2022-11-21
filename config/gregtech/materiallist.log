@@ -1156,6 +1156,11 @@
  8461: NiobiumPentoxide
  8462: TantalumPentoxide
  8463: Sugilite
+ 8464: BlueDiamond
+ 8465: GreenDiamond
+ 8466: PurpleDiamond
+ 8467: RedDiamond
+ 8468: YellowDiamond
  8500: Stone
  8501: Concrete
  8502: Netherrack
@@ -1511,6 +1516,28 @@
  9246: Columbite
  9247: Coltan
  9248: Deepslate
+ 9249: PhobosRock
+ 9250: DeimosRock
+ 9251: VenusRock
+ 9252: MercuryRock
+ 9253: CeresRock
+ 9254: JupiterRock
+ 9255: IoRock
+ 9256: EuropaRock
+ 9257: GanymedeRock
+ 9258: CallistoRock
+ 9259: SaturnRock
+ 9260: RheaRock
+ 9261: TitanRock
+ 9262: OberonRock
+ 9263: IapetusRock
+ 9264: UranusRock
+ 9265: TitaniaRock
+ 9266: NeptuneRock
+ 9267: TritonRock
+ 9268: PlutoRock
+ 9269: ErisRock
+ 9270: Kepler22bRock
  9300: Oak
  9301: Birch
  9302: Spruce

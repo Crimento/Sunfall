@@ -34,10 +34,6 @@
       "output": ["hbm:item.scrap_plastic",1,19]
     },
     {
-      "input": ["hbm:tile.turret_tau"],
-      "output": ["hbm:item.powder_steel",16]
-    },
-    {
       "input": ["minecraft:stained_hardened_clay",1,4],
       "output": ["minecraft:clay_ball",4]
     },
@@ -104,10 +100,6 @@
     {
       "input": ["hbm:tile.sand_dirty"],
       "output": ["hbm:item.scrap_oil"]
-    },
-    {
-      "input": ["hbm:tile.turret_heavy"],
-      "output": ["hbm:item.powder_steel",16]
     },
     {
       "input": ["hbm:item.coil_copper"],
@@ -226,10 +218,6 @@
       "output": ["hbm:item.powder_plutonium",6]
     },
     {
-      "input": ["hbm:item.turret_flamer_ammo"],
-      "output": ["minecraft:gunpowder",4]
-    },
-    {
       "input": ["hbm:tile.bobblehead",1,4],
       "output": ["hbm:item.scrap_plastic",1,4]
     },
@@ -254,16 +242,8 @@
       "output": ["hbm:item.powder_steel_tiny",5]
     },
     {
-      "input": ["hbm:tile.turret_light"],
-      "output": ["hbm:item.powder_steel",16]
-    },
-    {
       "input": ["hbm:item.fragment_lanthanium"],
       "output": ["hbm:item.powder_lanthanium_tiny"]
-    },
-    {
-      "input": ["hbm:item.turret_tau_ammo"],
-      "output": ["hbm:item.powder_uranium",4]
     },
     {
       "input": ["hbm:item.coil_copper_torus"],
@@ -290,10 +270,6 @@
       "output": ["hbm:item.sulfur",8]
     },
     {
-      "input": ["hbm:item.turret_cwis_ammo"],
-      "output": ["minecraft:gunpowder",4]
-    },
-    {
       "input": ["minecraft:quartz_block",1,2],
       "output": ["hbm:item.powder_quartz",4]
     },
@@ -318,10 +294,6 @@
       "output": ["hbm:item.powder_desh_mix",2]
     },
     {
-      "input": ["hbm:item.turret_heavy_ammo"],
-      "output": ["minecraft:gunpowder",4]
-    },
-    {
       "input": ["minecraft:quartz_stairs"],
       "output": ["hbm:item.powder_quartz",3]
     },
@@ -344,10 +316,6 @@
     {
       "input": ["minecraft:wool",1,14],
       "output": ["minecraft:string",4]
-    },
-    {
-      "input": ["hbm:tile.turret_rocket"],
-      "output": ["hbm:item.powder_steel",16]
     },
     {
       "input": ["hbm:item.crystal_aluminium"],
@@ -450,10 +418,6 @@
       "output": ["hbm:item.powder_lead",3]
     },
     {
-      "input": ["hbm:tile.turret_cwis"],
-      "output": ["hbm:item.powder_steel",16]
-    },
-    {
       "input": ["minecraft:wool",1,12],
       "output": ["minecraft:string",4]
     },
@@ -544,10 +508,6 @@
     {
       "input": ["hbm:tile.brick_concrete_broken"],
       "output": ["minecraft:gravel"]
-    },
-    {
-      "input": ["hbm:tile.turret_flamer"],
-      "output": ["hbm:item.powder_steel",16]
     },
     {
       "input": ["hbm:tile.crate_iron"],
@@ -668,10 +628,6 @@
     {
       "input": ["hbm:tile.dirt_dead"],
       "output": ["hbm:item.scrap_oil"]
-    },
-    {
-      "input": ["hbm:item.turret_light_ammo"],
-      "output": ["minecraft:gunpowder",4]
     },
     {
       "input": ["hbm:tile.bobblehead",1,5],
@@ -826,10 +782,6 @@
       "output": ["hbm:item.powder_steel"]
     },
     {
-      "input": ["hbm:item.turret_rocket_ammo"],
-      "output": ["minecraft:gunpowder",4]
-    },
-    {
       "input": ["hbm:tile.sellafield",1,2],
       "output": ["hbm:item.scrap_nuclear",3]
     },
@@ -847,7 +799,7 @@
     },
     {
       "input": ["minecraft:sand"],
-      "output": ["hbm:item.dust",2]
+      "output": ["gregtech:gt.meta.plate",1,140]
     },
     {
       "input": ["hbm:item.crystal_starmetal"],
