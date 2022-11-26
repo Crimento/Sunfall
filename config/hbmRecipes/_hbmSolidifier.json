@@ -1,47 +1,11 @@
 {
   "recipes": [
     {
-      "input": ["LPG",49],
+      "input": ["KEROSENE",70],
       "output": ["hbm:item.solid_fuel"]
     },
     {
-      "input": ["HEATINGOIL",460],
-      "output": ["hbm:item.solid_fuel"]
-    },
-    {
-      "input": ["DIESEL_CRACK",340],
-      "output": ["hbm:item.solid_fuel"]
-    },
-    {
-      "input": ["SALIENT",1280],
-      "output": ["hbm:item.bio_wafer",8]
-    },
-    {
-      "input": ["SMEAR",2100],
-      "output": ["hbm:item.solid_fuel"]
-    },
-    {
-      "input": ["OIL",200],
-      "output": ["hbm:item.oil_tar"]
-    },
-    {
-      "input": ["DIESEL",320],
-      "output": ["hbm:item.solid_fuel"]
-    },
-    {
-      "input": ["LIGHTOIL_CRACK",190],
-      "output": ["hbm:item.solid_fuel"]
-    },
-    {
-      "input": ["PETROLEUM",100],
-      "output": ["hbm:item.solid_fuel"]
-    },
-    {
-      "input": ["WATER",1000],
-      "output": ["minecraft:ice"]
-    },
-    {
-      "input": ["HEAVYOIL",150],
+      "input": ["BITUMEN",100],
       "output": ["hbm:item.oil_tar"]
     },
     {
@@ -49,31 +13,7 @@
       "output": ["hbm:item.solid_fuel"]
     },
     {
-      "input": ["CRACKOIL",200],
-      "output": ["hbm:item.oil_tar",1,1]
-    },
-    {
-      "input": ["LIGHTOIL",120],
-      "output": ["hbm:item.solid_fuel"]
-    },
-    {
-      "input": ["GAS",3600],
-      "output": ["hbm:item.solid_fuel"]
-    },
-    {
-      "input": ["RECLAIMED",1500],
-      "output": ["hbm:item.solid_fuel"]
-    },
-    {
-      "input": ["BIOFUEL",1200],
-      "output": ["hbm:item.solid_fuel"]
-    },
-    {
-      "input": ["NAPHTHA_CRACK",2000],
-      "output": ["hbm:item.solid_fuel"]
-    },
-    {
-      "input": ["LUBRICANT",125],
+      "input": ["LPG",49],
       "output": ["hbm:item.solid_fuel"]
     },
     {
@@ -81,23 +21,7 @@
       "output": ["hbm:item.solid_fuel"]
     },
     {
-      "input": ["NAPHTHA",1600],
-      "output": ["hbm:item.solid_fuel"]
-    },
-    {
-      "input": ["LAVA",1000],
-      "output": ["minecraft:obsidian"]
-    },
-    {
-      "input": ["ENDERJUICE",100],
-      "output": ["minecraft:ender_pearl"]
-    },
-    {
-      "input": ["BALEFIRE",110],
-      "output": ["hbm:item.solid_fuel_bf"]
-    },
-    {
-      "input": ["BIOGAS",7200],
+      "input": ["DIESEL",320],
       "output": ["hbm:item.solid_fuel"]
     },
     {
@@ -105,20 +29,96 @@
       "output": ["hbm:item.oil_tar",1,2]
     },
     {
-      "input": ["BITUMEN",100],
+      "input": ["PETROLEUM",100],
+      "output": ["hbm:item.solid_fuel"]
+    },
+    {
+      "input": ["RECLAIMED",1500],
+      "output": ["hbm:item.solid_fuel"]
+    },
+    {
+      "input": ["SALIENT",1280],
+      "output": ["hbm:item.bio_wafer",8]
+    },
+    {
+      "input": ["BIOGAS",7200],
+      "output": ["hbm:item.solid_fuel"]
+    },
+    {
+      "input": ["CRACKOIL",200],
+      "output": ["hbm:item.oil_tar",1,1]
+    },
+    {
+      "input": ["ENDERJUICE",100],
+      "output": ["minecraft:ender_pearl"]
+    },
+    {
+      "input": ["HEATINGOIL",460],
+      "output": ["hbm:item.solid_fuel"]
+    },
+    {
+      "input": ["HEAVYOIL",150],
       "output": ["hbm:item.oil_tar"]
     },
     {
-      "input": ["KEROSENE",70],
+      "input": ["DIESEL_CRACK",340],
       "output": ["hbm:item.solid_fuel"]
+    },
+    {
+      "input": ["LUBRICANT",125],
+      "output": ["hbm:item.solid_fuel"]
+    },
+    {
+      "input": ["LIGHTOIL_CRACK",190],
+      "output": ["hbm:item.solid_fuel"]
+    },
+    {
+      "input": ["WATER",1000],
+      "output": ["minecraft:ice"]
+    },
+    {
+      "input": ["BIOFUEL",1200],
+      "output": ["hbm:item.solid_fuel"]
+    },
+    {
+      "input": ["NAPHTHA",1600],
+      "output": ["hbm:item.solid_fuel"]
+    },
+    {
+      "input": ["BALEFIRE",110],
+      "output": ["hbm:item.solid_fuel_bf"]
+    },
+    {
+      "input": ["LIGHTOIL",120],
+      "output": ["hbm:item.solid_fuel"]
+    },
+    {
+      "input": ["NAPHTHA_CRACK",2000],
+      "output": ["hbm:item.solid_fuel"]
+    },
+    {
+      "input": ["LAVA",1000],
+      "output": ["minecraft:obsidian"]
+    },
+    {
+      "input": ["MERCURY",125],
+      "output": ["hbm:item.nugget_mercury"]
+    },
+    {
+      "input": ["OIL",200],
+      "output": ["hbm:item.oil_tar"]
     },
     {
       "input": ["AROMATICS",390],
       "output": ["hbm:item.solid_fuel"]
     },
     {
-      "input": ["MERCURY",125],
-      "output": ["hbm:item.nugget_mercury"]
+      "input": ["SMEAR",2100],
+      "output": ["hbm:item.solid_fuel"]
+    },
+    {
+      "input": ["GAS",3600],
+      "output": ["hbm:item.solid_fuel"]
     }
   ]
 }
