@@ -292,7 +292,6 @@ appliedenergistics2:tile.BlockSkyStone:2, Sky Stone Brick
 appliedenergistics2:tile.BlockSkyStone:3, Sky Stone Small Brick
 appliedenergistics2:tile.BlockSkyChest:0, Sky Stone Chest
 appliedenergistics2:tile.BlockSkyChest:1, Sky Stone Block Chest
-appliedenergistics2:tile.BlockSkyCompass, Meteorite Compass
 appliedenergistics2:tile.BlockGrinder, Quartz Grindstone
 appliedenergistics2:tile.BlockCrank, Wooden Crank
 appliedenergistics2:tile.BlockInscriber, Inscriber
@@ -369,6 +368,7 @@ malisisdoors:factory_door, Factory Door
 malisisdoors:shoji_door, Shoji Door
 malisisdoors:curtain_black, Black Curtain
 malisisdoors:curtain_red, Red Curtain
+malisisdoors:curtain_green, Green Curtain
 minecraft:iron_shovel, Iron Shovel
 minecraft:iron_pickaxe, Iron Pickaxe
 minecraft:iron_axe, Iron Axe
@@ -641,7 +641,6 @@ minecraft:netherbrick, Nether Brick
 minecraft:quartz, Nether Quartz
 minecraft:tnt_minecart, Minecart with TNT
 minecraft:hopper_minecart, Minecart with Hopper
-malisisdoors:curtain_green, Green Curtain
 malisisdoors:curtain_brown, Brown Curtain
 malisisdoors:curtain_blue, Blue Curtain
 malisisdoors:curtain_purple, Purple Curtain
@@ -649,13 +648,13 @@ malisisdoors:curtain_cyan, Cyan Curtain
 malisisdoors:curtain_silver, SilverCurtain
 malisisdoors:curtain_gray, Gray Curtain
 malisisdoors:curtain_pink, Pink Curtain
+malisisdoors:curtain_lime, Lime Curtain
 minecraft:iron_horse_armor, Iron Horse Armor
 minecraft:golden_horse_armor, Gold Horse Armor
 minecraft:diamond_horse_armor, Diamond Horse Armor
 minecraft:lead, Lead
 minecraft:name_tag, Name Tag
 minecraft:command_block_minecart, Minecart with Command Block
-malisisdoors:curtain_lime, Lime Curtain
 malisisdoors:curtain_yellow, Yellow Curtain
 malisisdoors:curtain_light_blue, Light Blue Curtain
 malisisdoors:curtain_magenta, Magenta Curtain
@@ -2799,13 +2798,28 @@ hbm:tile.oil_duct, Oil Pipe
 hbm:tile.oil_duct_solid, Coated Oil Pipe
 hbm:tile.gas_duct, Gas Pipe
 hbm:tile.gas_duct_solid, Coated Gas Pipe
-hbm:tile.fluid_duct, Universal Fluid Duct
-hbm:tile.fluid_duct_neo:0, tile.fluid_duct_neo.name
-hbm:tile.fluid_duct_neo:1, tile.fluid_duct_neo.name
-hbm:tile.fluid_duct_neo:2, tile.fluid_duct_neo.name
-hbm:tile.fluid_duct_box:0, tile.fluid_duct_box.name
-hbm:tile.fluid_duct_box:1, tile.fluid_duct_box.name
+hbm:tile.fluid_duct, Universal Fluid Duct (Deprecated)
+hbm:tile.fluid_duct_neo:0, Universal Fluid Duct
+hbm:tile.fluid_duct_neo:1, Universal Fluid Duct
+hbm:tile.fluid_duct_neo:2, Universal Fluid Duct
+hbm:tile.fluid_duct_box:0, Universal Fluid Duct (Boxduct)
+hbm:tile.fluid_duct_box:1, Universal Fluid Duct (Boxduct)
+hbm:tile.fluid_duct_box:2, Universal Fluid Duct (Boxduct)
+hbm:tile.fluid_duct_box:3, Universal Fluid Duct (Boxduct)
+hbm:tile.fluid_duct_box:4, Universal Fluid Duct (Boxduct)
+hbm:tile.fluid_duct_box:5, Universal Fluid Duct (Boxduct)
+hbm:tile.fluid_duct_box:6, Universal Fluid Duct (Boxduct)
+hbm:tile.fluid_duct_box:7, Universal Fluid Duct (Boxduct)
+hbm:tile.fluid_duct_box:8, Universal Fluid Duct (Boxduct)
+hbm:tile.fluid_duct_box:9, Universal Fluid Duct (Boxduct)
+hbm:tile.fluid_duct_box:10, Universal Fluid Duct (Boxduct)
+hbm:tile.fluid_duct_box:11, Universal Fluid Duct (Boxduct)
+hbm:tile.fluid_duct_box:12, Universal Fluid Duct (Boxduct)
+hbm:tile.fluid_duct_box:13, Universal Fluid Duct (Boxduct)
+hbm:tile.fluid_duct_box:14, Universal Fluid Duct (Boxduct)
 hbm:tile.fluid_duct_solid, Coated Universal Fluid Duct
+hbm:tile.radio_torch_sender, Redstone-over-Radio Transmitter
+hbm:tile.radio_torch_receiver, Redstone-over-Radio Receiver
 hbm:tile.crane_extractor, Conveyor Ejector
 hbm:tile.crane_inserter, Conveyor Inserter
 hbm:tile.crane_router, Conveyor Sorter
@@ -2857,10 +2871,10 @@ hbm:tile.machine_chemfac, Chemical Factory
 hbm:tile.machine_fluidtank, Tank
 hbm:tile.machine_bat9000, Big-Ass Tank 9000
 hbm:tile.machine_orbus, Heavy Magnetic Storage Tank
-hbm:tile.machine_boiler_off, Boiler
-hbm:tile.machine_boiler_on, Boiler
-hbm:tile.machine_boiler_electric_on, Electric Boiler
-hbm:tile.machine_boiler_electric_off, Electric Boiler
+hbm:tile.machine_boiler_off, Oil Heater
+hbm:tile.machine_boiler_on, Oil Heater
+hbm:tile.machine_boiler_electric_on, Electric Oil Heater
+hbm:tile.machine_boiler_electric_off, Electric Oil Heater
 hbm:tile.machine_steam_engine, Steam Engine
 hbm:tile.machine_turbine, Steam Turbine
 hbm:tile.machine_large_turbine, Industrial Steam Turbine
@@ -10027,14 +10041,6 @@ gregtech:gt.block.sapling:5, gt.block.sapling.5.name
 gregtech:gt.block.sapling:6, gt.block.sapling.6.name
 gregtech:gt.block.sapling:7, gt.block.sapling.7.name
 gregtech:gt.block.sapling.cd:0, gt.block.sapling.cd.0.name
-gregtech:gt.block.leaves:0, gt.block.leaves.0.name
-gregtech:gt.block.leaves:1, gt.block.leaves.1.name
-gregtech:gt.block.leaves:2, gt.block.leaves.2.name
-gregtech:gt.block.leaves:3, gt.block.leaves.3.name
-gregtech:gt.block.leaves:4, gt.block.leaves.4.name
-gregtech:gt.block.leaves:5, gt.block.leaves.5.name
-gregtech:gt.block.leaves:6, gt.block.leaves.6.name
-gregtech:gt.block.leaves:7, gt.block.leaves.7.name
 minecraft:record_13, Music Disc
 minecraft:record_cat, Music Disc
 minecraft:record_blocks, Music Disc
@@ -10047,6 +10053,14 @@ minecraft:record_strad, Music Disc
 minecraft:record_ward, Music Disc
 minecraft:record_11, Music Disc
 minecraft:record_wait, Music Disc
+gregtech:gt.block.leaves:0, gt.block.leaves.0.name
+gregtech:gt.block.leaves:1, gt.block.leaves.1.name
+gregtech:gt.block.leaves:2, gt.block.leaves.2.name
+gregtech:gt.block.leaves:3, gt.block.leaves.3.name
+gregtech:gt.block.leaves:4, gt.block.leaves.4.name
+gregtech:gt.block.leaves:5, gt.block.leaves.5.name
+gregtech:gt.block.leaves:6, gt.block.leaves.6.name
+gregtech:gt.block.leaves:7, gt.block.leaves.7.name
 gregtech:gt.block.leaves.cd:0, gt.block.leaves.cd.0.name
 gregtech:gt.block.rail.aluminium:0, gt.block.rail.aluminium.name
 gregtech:gt.block.rail.bronze:0, gt.block.rail.bronze.name
@@ -11307,25 +11321,10 @@ WLM:tile.toxicWasteBlock, Toxic Waste
 gregapi:gt.display.fluid, Fluid Display
 gregapi:gt.integrated_circuit:0, Selector Tag
 gregapi:gt.empty_slot, Empty Slot
-appliedenergistics2:item.ToolCertusQuartzAxe, Certus Quartz Axe
-appliedenergistics2:item.ToolCertusQuartzHoe, Certus Quartz Hoe
-appliedenergistics2:item.ToolCertusQuartzSpade, Certus Quartz Shovel
-appliedenergistics2:item.ToolCertusQuartzPickaxe, Certus Quartz Pickaxe
-appliedenergistics2:item.ToolCertusQuartzSword, Certus Quartz Sword
-appliedenergistics2:item.ToolCertusQuartzWrench, Certus Quartz Wrench
-appliedenergistics2:item.ToolCertusQuartzCuttingKnife, Certus Quartz Cutting Knife
-appliedenergistics2:item.ToolNetherQuartzAxe, Nether Quartz Axe
-appliedenergistics2:item.ToolNetherQuartzHoe, Nether Quartz Hoe
-appliedenergistics2:item.ToolNetherQuartzSpade, Nether Quartz Shovel
-appliedenergistics2:item.ToolNetherQuartzPickaxe, Nether Quartz Pickaxe
-appliedenergistics2:item.ToolNetherQuartzSword, Nether Quartz Sword
-appliedenergistics2:item.ToolNetherQuartzWrench, Nether Quartz Wrench
-appliedenergistics2:item.ToolNetherQuartzCuttingKnife, Nether Quartz Cutting Knife
 appliedenergistics2:item.ToolEntropyManipulator, Entropy Manipulator
 appliedenergistics2:item.ToolWirelessTerminal, Wireless Terminal
 appliedenergistics2:item.ToolBiometricCard, Biometric Card
 appliedenergistics2:item.ToolChargedStaff, Charged Staff
-appliedenergistics2:item.ToolMassCannon, Matter Cannon
 appliedenergistics2:item.ToolMemoryCard, Memory Card
 appliedenergistics2:item.ToolNetworkTool, Network Tool
 appliedenergistics2:item.ToolPortableCell, Portable Cell
