@@ -16,3 +16,9 @@ config/splash.properties
 config/worldedit/worldedit.properties
 config/gregtech/materiallist.log
 config/autopickup.cfg
+
+#AE2
+config/AppliedEnergistics2/recipes/items.csv
+config/AppliedEnergistics2/CustomRecipes.cfg
+
+config/autopickup.cfg

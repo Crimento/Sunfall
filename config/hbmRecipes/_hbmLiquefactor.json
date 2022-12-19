@@ -3,7 +3,7 @@
   "recipes": [
     {
       "input": ["item","hbm:item.biomass"],
-      "output": ["BIOGAS",250]
+      "output": ["BIOGAS",125]
     },
     {
       "input": ["dict","dustCoal",1],
@@ -34,8 +34,16 @@
       "output": ["ENDERJUICE",100]
     },
     {
+      "input": ["item","minecraft:tallgrass",1],
+      "output": ["SEEDSLURRY",100]
+    },
+    {
       "input": ["item","minecraft:stone"],
       "output": ["LAVA",250]
+    },
+    {
+      "input": ["item","minecraft:tallgrass",2],
+      "output": ["SEEDSLURRY",100]
     },
     {
       "input": ["dict","coaltar",1],
@@ -50,8 +58,8 @@
       "output": ["WATER",125]
     },
     {
-      "input": ["item","hbm:item.solid_fuel_bf"],
-      "output": ["BALEFIRE",250]
+      "input": ["item","minecraft:vine"],
+      "output": ["SEEDSLURRY",100]
     },
     {
       "input": ["dict","gemLignite",1],
@@ -66,12 +74,16 @@
       "output": ["BITUMEN",75]
     },
     {
+      "input": ["item","minecraft:wheat_seeds"],
+      "output": ["SEEDSLURRY",50]
+    },
+    {
       "input": ["item","minecraft:snow"],
       "output": ["WATER",500]
     },
     {
       "input": ["item","minecraft:sugar"],
-      "output": ["ETHANOL",150]
+      "output": ["ETHANOL",100]
     },
     {
       "input": ["dict","gemCoal",1],

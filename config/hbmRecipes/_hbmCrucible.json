@@ -15,6 +15,45 @@
       ]
     },
     {
+      "id": 9,
+      "name": "crucible.steelWrought",
+      "frequency": 2,
+      "icon": ["hbm:item.ingot_steel"],
+      "input": [
+        ["WroughtIron",16],
+        ["Carbon",8]
+      ],
+      "output": [
+        ["Steel",16]
+      ]
+    },
+    {
+      "id": 10,
+      "name": "crucible.steelPig",
+      "frequency": 2,
+      "icon": ["hbm:item.ingot_steel"],
+      "input": [
+        ["PigIron",16],
+        ["Carbon",8]
+      ],
+      "output": [
+        ["Steel",16]
+      ]
+    },
+    {
+      "id": 11,
+      "name": "crucible.steelMeteoric",
+      "frequency": 2,
+      "icon": ["hbm:item.ingot_steel"],
+      "input": [
+        ["MeteoricIron",16],
+        ["Carbon",8]
+      ],
+      "output": [
+        ["Steel",16]
+      ]
+    },
+    {
       "id": 7,
       "name": "crucible.hematite",
       "frequency": 6,

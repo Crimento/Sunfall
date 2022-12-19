@@ -60,22 +60,23 @@
     {
       "id": 31,
       "name": "BP_BIOGAS",
-      "duration": 200,
+      "duration": 60,
       "fluidInput": [],
       "itemInput": [
         ["item","hbm:item.biomass",16]
       ],
       "fluidOutput": [
-        ["BIOGAS",4000]
+        ["BIOGAS",2000]
       ],
       "itemOutput": []
     },
     {
       "id": 32,
       "name": "BP_BIOFUEL",
-      "duration": 100,
+      "duration": 60,
       "fluidInput": [
-        ["BIOGAS",2000]
+        ["BIOGAS",1500],
+        ["ETHANOL",250]
       ],
       "itemInput": [],
       "fluidOutput": [
@@ -892,7 +893,7 @@
       "duration": 50,
       "fluidInput": [],
       "itemInput": [
-        ["item","minecraft:sugar",6]
+        ["item","minecraft:sugar",10]
       ],
       "fluidOutput": [
         ["ETHANOL",1000]

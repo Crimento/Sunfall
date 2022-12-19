@@ -2,85 +2,118 @@
   "entries": [
     {
       "matchesBlock": "minecraft:leaves",
-      "primarySubstitution": [["minecraft:air",0,1]]
+      "primarySubstitution": [["minecraft:air",0,1]],
+      "maximumDistancePercent": 65.0
     },
     {
       "matchesBlock": "minecraft:leaves2",
-      "primarySubstitution": [["minecraft:air",0,1]]
+      "primarySubstitution": [["minecraft:air",0,1]],
+      "maximumDistancePercent": 65.0
     },
     {
       "matchesBlock": "hbm:tile.waste_leaves",
-      "primarySubstitution": [["minecraft:air",0,1]]
+      "primarySubstitution": [["minecraft:air",0,1]],
+      "maximumDistancePercent": 65.0
     },
     {
       "matchesBlock": "minecraft:leaves",
-      "primarySubstitution": [["hbm:tile.waste_leaves",0,1]]
+      "primarySubstitution": [["hbm:tile.waste_leaves",0,1]],
+      "minimumDistancePercent": 65.0
     },
     {
       "matchesBlock": "minecraft:leaves2",
-      "primarySubstitution": [["hbm:tile.waste_leaves",0,1]]
+      "primarySubstitution": [["hbm:tile.waste_leaves",0,1]],
+      "minimumDistancePercent": 65.0
     },
     {
       "matchesBlock": "minecraft:log",
-      "primarySubstitution": [["hbm:tile.waste_log",0,1]]
+      "primarySubstitution": [["hbm:tile.waste_log",0,1]],
+      "maximumDistancePercent": 65.0
     },
     {
       "matchesBlock": "minecraft:log2",
-      "primarySubstitution": [["hbm:tile.waste_log",0,1]]
+      "primarySubstitution": [["hbm:tile.waste_log",0,1]],
+      "maximumDistancePercent": 65.0
     },
     {
       "matchesBlock": "minecraft:red_mushroom_block",
       "matchesMeta": 10,
-      "primarySubstitution": [["hbm:tile.waste_log",0,1]]
+      "primarySubstitution": [["hbm:tile.waste_log",0,1]],
+      "maximumDistancePercent": 65.0
     },
     {
       "matchesBlock": "minecraft:brown_mushroom_block",
       "matchesMeta": 10,
-      "primarySubstitution": [["hbm:tile.waste_log",0,1]]
+      "primarySubstitution": [["hbm:tile.waste_log",0,1]],
+      "maximumDistancePercent": 65.0
     },
     {
       "matchesBlock": "minecraft:red_mushroom_block",
-      "primarySubstitution": [["minecraft:air",0,1]]
+      "primarySubstitution": [["minecraft:air",0,1]],
+      "maximumDistancePercent": 65.0
     },
     {
       "matchesBlock": "minecraft:brown_mushroom_block",
-      "primarySubstitution": [["minecraft:air",0,1]]
+      "primarySubstitution": [["minecraft:air",0,1]],
+      "maximumDistancePercent": 65.0
     },
     {
       "matchesBlock": "minecraft:planks",
-      "primarySubstitution": [["hbm:tile.waste_planks",0,1]]
+      "primarySubstitution": [["hbm:tile.waste_planks",0,1]],
+      "maximumDistancePercent": 65.0
     },
     {
       "matchesBlock": "minecraft:stone",
-      "primarySubstitution": [["hbm:tile.sellafield",1,1]]
+      "restrictDepth": true,
+      "primarySubstitution": [["hbm:tile.sellafield",1,1]],
+      "maximumDistancePercent": 5.0
     },
     {
       "matchesBlock": "minecraft:stone",
-      "primarySubstitution": [["hbm:tile.sellafield",0,1]]
+      "restrictDepth": true,
+      "primarySubstitution": [["hbm:tile.sellafield",0,1]],
+      "minimumDistancePercent": 5.0,
+      "maximumDistancePercent": 15.0
     },
     {
       "matchesBlock": "minecraft:stone",
-      "primarySubstitution": [["hbm:tile.sellafield_slaked",0,1]]
+      "restrictDepth": true,
+      "primarySubstitution": [["hbm:tile.sellafield_slaked",0,1]],
+      "minimumDistancePercent": 15.0,
+      "maximumDistancePercent": 50.0
     },
     {
       "matchesBlock": "minecraft:gravel",
-      "primarySubstitution": [["hbm:tile.sellafield",1,1]]
+      "restrictDepth": true,
+      "primarySubstitution": [["hbm:tile.sellafield",1,1]],
+      "maximumDistancePercent": 5.0
     },
     {
       "matchesBlock": "minecraft:gravel",
-      "primarySubstitution": [["hbm:tile.sellafield",0,1]]
+      "restrictDepth": true,
+      "primarySubstitution": [["hbm:tile.sellafield",0,1]],
+      "minimumDistancePercent": 5.0,
+      "maximumDistancePercent": 15.0
     },
     {
       "matchesBlock": "minecraft:gravel",
-      "primarySubstitution": [["hbm:tile.sellafield_slaked",0,1]]
+      "restrictDepth": true,
+      "primarySubstitution": [["hbm:tile.sellafield_slaked",0,1]],
+      "minimumDistancePercent": 15.0,
+      "maximumDistancePercent": 50.0
     },
     {
       "matchesBlock": "hbm:tile.sellafield_slaked",
-      "primarySubstitution": [["hbm:tile.sellafield",1,1]]
+      "restrictDepth": true,
+      "primarySubstitution": [["hbm:tile.sellafield",1,1]],
+      "maximumDistancePercent": 5.0
     },
     {
       "matchesBlock": "hbm:tile.sellafield_slaked",
-      "primarySubstitution": [["hbm:tile.sellafield",0,1]]
+      "restrictDepth": true,
+      "primarySubstitution": [["hbm:tile.sellafield",0,1]],
+      "minimumDistancePercent": 5.0,
+      "maximumDistancePercent": 15.0
     },
     {
       "matchesBlock": "minecraft:grass",
@@ -134,27 +167,43 @@
     },
     {
       "matchesBlock": "minecraft:air",
-      "primarySubstitution": [["hbm:tile.sellafield",1,1]]
+      "restrictDepth": true,
+      "primarySubstitution": [["hbm:tile.sellafield",1,1]],
+      "maximumDistancePercent": 5.0
     },
     {
       "matchesBlock": "minecraft:air",
-      "primarySubstitution": [["hbm:tile.sellafield",0,1]]
+      "restrictDepth": true,
+      "primarySubstitution": [["hbm:tile.sellafield",0,1]],
+      "minimumDistancePercent": 5.0,
+      "maximumDistancePercent": 15.0
     },
     {
       "matchesBlock": "minecraft:air",
-      "primarySubstitution": [["hbm:tile.sellafield_slaked",0,1]]
+      "restrictDepth": true,
+      "primarySubstitution": [["hbm:tile.sellafield_slaked",0,1]],
+      "minimumDistancePercent": 15.0,
+      "maximumDistancePercent": 50.0
     },
     {
       "matchesBlock": "minecraft:air",
-      "primarySubstitution": [["hbm:tile.sellafield",1,1]]
+      "restrictDepth": true,
+      "primarySubstitution": [["hbm:tile.sellafield",1,1]],
+      "maximumDistancePercent": 5.0
     },
     {
       "matchesBlock": "minecraft:air",
-      "primarySubstitution": [["hbm:tile.sellafield",0,1]]
+      "restrictDepth": true,
+      "primarySubstitution": [["hbm:tile.sellafield",0,1]],
+      "minimumDistancePercent": 5.0,
+      "maximumDistancePercent": 15.0
     },
     {
       "matchesBlock": "minecraft:air",
-      "primarySubstitution": [["hbm:tile.sellafield_slaked",0,1]]
+      "restrictDepth": true,
+      "primarySubstitution": [["hbm:tile.sellafield_slaked",0,1]],
+      "minimumDistancePercent": 15.0,
+      "maximumDistancePercent": 50.0
     }
   ]
 }

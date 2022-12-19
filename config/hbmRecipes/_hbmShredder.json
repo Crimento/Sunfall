@@ -18,6 +18,10 @@
       "output": ["hbm:item.scrap_plastic",1,8]
     },
     {
+      "input": ["minecraft:apple"],
+      "output": ["minecraft:sugar"]
+    },
+    {
       "input": ["chisel:jungle_planks",1,15],
       "output": ["hbm:item.powder_sawdust"]
     },
@@ -139,11 +143,15 @@
     },
     {
       "input": ["minecraft:skull",1,3],
-      "output": ["hbm:item.biomass"]
+      "output": ["hbm:item.biomass",4]
     },
     {
       "input": ["hbm:tile.block_schrabidate"],
       "output": ["hbm:item.powder_schrabidate",9]
+    },
+    {
+      "input": ["MineFactoryReloaded:rubberwood.sapling",1,1],
+      "output": ["minecraft:stick"]
     },
     {
       "input": ["chisel:jungle_planks",1,13],
@@ -171,7 +179,7 @@
     },
     {
       "input": ["minecraft:skull",1,4],
-      "output": ["hbm:item.biomass"]
+      "output": ["hbm:item.biomass",4]
     },
     {
       "input": ["hbm:item.crystal_trixite"],
@@ -180,6 +188,10 @@
     {
       "input": ["hbm:tile.bobblehead",1,4],
       "output": ["hbm:item.scrap_plastic",1,4]
+    },
+    {
+      "input": ["MineFactoryReloaded:rubberwood.sapling"],
+      "output": ["minecraft:stick"]
     },
     {
       "input": ["chisel:jungle_planks",1,14],
@@ -222,8 +234,20 @@
       "output": ["hbm:item.powder_steel"]
     },
     {
+      "input": ["MineFactoryReloaded:rubberwood.sapling",1,3],
+      "output": ["minecraft:stick"]
+    },
+    {
+      "input": ["gregtech:gt.block.sapling.cd",1,8],
+      "output": ["minecraft:stick"]
+    },
+    {
       "input": ["gregtech:gt.block.log.b",1,10],
       "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["MineFactoryReloaded:rubberwood.sapling",1,2],
+      "output": ["minecraft:stick"]
     },
     {
       "input": ["gregtech:gt.block.log.c",1,12],
@@ -296,6 +320,10 @@
     {
       "input": ["netherlicious:Stem",1,2],
       "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["hbm:tile.gas_duct"],
+      "output": ["hbm:item.powder_steel"]
     },
     {
       "input": ["hbm:tile.bobblehead"],
@@ -590,6 +618,10 @@
       "output": ["hbm:item.powder_sawdust",4]
     },
     {
+      "input": ["gregtech:gt.block.sapling.cd"],
+      "output": ["minecraft:stick"]
+    },
+    {
       "input": ["gregtech:gt.block.log.b.fireproof",1,9],
       "output": ["hbm:item.powder_sawdust",4]
     },
@@ -660,6 +692,10 @@
     {
       "input": ["hbm:tile.sellafield",1,2],
       "output": ["hbm:item.scrap_nuclear",3]
+    },
+    {
+      "input": ["minecraft:carrot"],
+      "output": ["minecraft:sugar"]
     },
     {
       "input": ["hbm:item.crystal_tungsten"],
@@ -802,12 +838,20 @@
       "output": ["minecraft:clay_ball",3]
     },
     {
+      "input": ["gregtech:gt.block.sapling",1,12],
+      "output": ["minecraft:stick"]
+    },
+    {
       "input": ["gregtech:gt.block.log.a.fireproof",1,11],
       "output": ["hbm:item.powder_sawdust",4]
     },
     {
       "input": ["gregtech:gt.block.log.b.fireproof",1,13],
       "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["gregtech:gt.block.sapling",1,14],
+      "output": ["minecraft:stick"]
     },
     {
       "input": ["chisel:dark_oak_planks",1,7],
@@ -870,6 +914,10 @@
       "output": ["hbm:item.powder_sawdust",4]
     },
     {
+      "input": ["gregtech:gt.block.sapling",1,13],
+      "output": ["minecraft:stick"]
+    },
+    {
       "input": ["gregtech:gt.block.log.a.fireproof",1,10],
       "output": ["hbm:item.powder_sawdust",4]
     },
@@ -882,6 +930,10 @@
       "output": ["hbm:item.powder_sawdust",4]
     },
     {
+      "input": ["gregtech:gt.block.sapling",1,15],
+      "output": ["minecraft:stick"]
+    },
+    {
       "input": ["hbm:tile.deco_pipe_rim_red"],
       "output": ["hbm:item.powder_steel"]
     },
@@ -892,6 +944,10 @@
     {
       "input": ["chisel:dark_oak_planks",1,6],
       "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["hbm:tile.oil_duct_solid"],
+      "output": ["hbm:item.powder_steel_tiny",3]
     },
     {
       "input": ["minecraft:enchanted_book"],
@@ -1054,6 +1110,10 @@
       "output": ["hbm:item.powder_sawdust"]
     },
     {
+      "input": ["gregtech:gt.block.sapling",1,8],
+      "output": ["minecraft:stick"]
+    },
+    {
       "input": ["gregtech:gt.block.log.a.fireproof",1,7],
       "output": ["hbm:item.powder_sawdust",4]
     },
@@ -1100,6 +1160,10 @@
     {
       "input": ["chisel:birch_planks",1,8],
       "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["gregtech:gt.block.sapling",1,9],
+      "output": ["minecraft:stick"]
     },
     {
       "input": ["gregtech:gt.block.log.a.fireproof",1,6],
@@ -1150,6 +1214,10 @@
       "output": ["hbm:item.powder_sawdust"]
     },
     {
+      "input": ["hbm:tile.oil_duct"],
+      "output": ["hbm:item.powder_steel_tiny",3]
+    },
+    {
       "input": ["hbm:tile.bobblehead",1,15],
       "output": ["hbm:item.scrap_plastic",1,18]
     },
@@ -1192,6 +1260,10 @@
     {
       "input": ["gregtech:gt.block.planks.fireproof",1,7],
       "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["gregtech:gt.block.sapling",1,10],
+      "output": ["minecraft:stick"]
     },
     {
       "input": ["chisel:jungle_planks",1,2],
@@ -1246,6 +1318,10 @@
       "output": ["hbm:item.powder_sawdust"]
     },
     {
+      "input": ["gregtech:gt.block.sapling",1,11],
+      "output": ["minecraft:stick"]
+    },
+    {
       "input": ["hbm:tile.deco_pipe_quad_marked"],
       "output": ["hbm:item.powder_steel"]
     },
@@ -1276,6 +1352,14 @@
     {
       "input": ["gregtech:gt.block.log.b",1,14],
       "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["hbm:tile.gas_duct_solid"],
+      "output": ["hbm:item.powder_steel"]
+    },
+    {
+      "input": ["gregtech:gt.block.sapling",1,4],
+      "output": ["minecraft:stick"]
     },
     {
       "input": ["gregtech:gt.block.log.a.fireproof",1,3],
@@ -1344,6 +1428,10 @@
     {
       "input": ["gregtech:gt.block.log.a",1,13],
       "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["gregtech:gt.block.sapling",1,5],
+      "output": ["minecraft:stick"]
     },
     {
       "input": ["gregtech:gt.block.log.a.fireproof",1,2],
@@ -1438,6 +1526,10 @@
       "output": ["minecraft:clay_ball",4]
     },
     {
+      "input": ["gregtech:gt.block.sapling",1,6],
+      "output": ["minecraft:stick"]
+    },
+    {
       "input": ["chisel:acacia_planks",1,14],
       "output": ["hbm:item.powder_sawdust"]
     },
@@ -1486,6 +1578,10 @@
       "output": ["minecraft:gunpowder",5]
     },
     {
+      "input": ["gregtech:gt.block.sapling",1,7],
+      "output": ["minecraft:stick"]
+    },
+    {
       "input": ["chisel:dark_oak_planks",1,13],
       "output": ["hbm:item.powder_sawdust"]
     },
@@ -1495,7 +1591,7 @@
     },
     {
       "input": ["minecraft:skull",1,1],
-      "output": ["hbm:item.biomass"]
+      "output": ["hbm:item.biomass",4]
     },
     {
       "input": ["chisel:dark_oak_planks",1,12],
@@ -1516,6 +1612,10 @@
     {
       "input": ["gregtech:gt.block.planks.fireproof",1,1],
       "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["gregtech:gt.block.sapling"],
+      "output": ["minecraft:stick"]
     },
     {
       "input": ["minecraft:sandstone"],
@@ -1551,7 +1651,7 @@
     },
     {
       "input": ["minecraft:skull",1,2],
-      "output": ["hbm:item.biomass"]
+      "output": ["hbm:item.biomass",4]
     },
     {
       "input": ["chisel:oak_planks",1,1],
@@ -1574,12 +1674,16 @@
       "output": ["hbm:item.powder_steel"]
     },
     {
+      "input": ["gregtech:gt.block.sapling",1,1],
+      "output": ["minecraft:stick"]
+    },
+    {
       "input": ["hbm:tile.meteor_brick_mossy"],
       "output": ["hbm:item.powder_meteorite"]
     },
     {
       "input": ["minecraft:reeds"],
-      "output": ["minecraft:paper",3]
+      "output": ["minecraft:sugar",3]
     },
     {
       "input": ["minecraft:wool",1,6],
@@ -1632,6 +1736,14 @@
     {
       "input": ["hbm:tile.deco_pipe_rim_green"],
       "output": ["hbm:item.powder_steel"]
+    },
+    {
+      "input": ["minecraft:sapling",1,32767],
+      "output": ["minecraft:stick"]
+    },
+    {
+      "input": ["gregtech:gt.block.sapling",1,2],
+      "output": ["minecraft:stick"]
     },
     {
       "input": ["chisel:birch_planks",1,15],
@@ -1690,6 +1802,10 @@
       "output": ["hbm:item.powder_sawdust",4]
     },
     {
+      "input": ["gregtech:gt.block.sapling",1,3],
+      "output": ["minecraft:stick"]
+    },
+    {
       "input": ["chisel:spruce_planks",1,13],
       "output": ["hbm:item.powder_sawdust"]
     },
@@ -1703,7 +1819,7 @@
     },
     {
       "input": ["minecraft:skull"],
-      "output": ["hbm:item.biomass"]
+      "output": ["hbm:item.biomass",4]
     }
   ]
 }

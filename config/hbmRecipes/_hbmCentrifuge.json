@@ -470,6 +470,15 @@
       ]
     },
     {
+      "input": ["item","hbm:tile.block_slag"],
+      "output": [
+        ["minecraft:gravel"],
+        ["hbm:item.powder_fire"],
+        ["minecraft:dye",1,15],
+        ["hbm:item.dust"]
+      ]
+    },
+    {
       "input": ["item","hbm:item.powder_cloud"],
       "output": [
         ["hbm:item.powder_copper"],
@@ -535,10 +544,10 @@
     {
       "input": ["item","hbm:item.crystal_trixite"],
       "output": [
-        ["hbm:item.powder_plutonium",3],
+        ["hbm:item.powder_plutonium",2],
         ["hbm:item.powder_cobalt",3],
-        ["hbm:item.powder_spark_mix"],
-        ["hbm:item.powder_nitan_mix",2]
+        ["hbm:item.powder_niobium",2],
+        ["hbm:item.powder_nitan_mix"]
       ]
     },
     {
@@ -643,9 +652,9 @@
     {
       "input": ["item","hbm:tile.ore_tikite"],
       "output": [
-        ["hbm:item.powder_plutonium",2],
+        ["hbm:item.powder_plutonium"],
         ["hbm:item.powder_cobalt",2],
-        ["hbm:item.powder_nitan_mix"],
+        ["hbm:item.powder_niobium",2],
         ["minecraft:end_stone"]
       ]
     }

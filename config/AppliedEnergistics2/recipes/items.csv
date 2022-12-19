@@ -2683,8 +2683,10 @@ hbm:tile.heater_firebox, Firebox
 hbm:tile.heater_oven, Heating Oven
 hbm:tile.heater_oilburner, Fluid Burner
 hbm:tile.heater_electric, Electric Heater
+hbm:tile.heater_heatex, Heat Exchanging Heater
 hbm:tile.furnace_iron, Iron Furnace
 hbm:tile.furnace_steel, Steel Furnace
+hbm:tile.furnace_combination, Combination Oven
 hbm:tile.machine_stirling:0, Stirling Engine
 hbm:tile.machine_stirling_steel:0, Heavy Stirling Engine
 hbm:tile.machine_sawmill, Stirling Sawmill
@@ -2715,6 +2717,7 @@ hbm:tile.machine_coal_off, Combustion Generator
 hbm:tile.machine_coal_on, Combustion Generator
 hbm:tile.machine_diesel, Diesel Generator
 hbm:tile.machine_selenium, Radial Performance Engine
+hbm:tile.machine_combustion_engine, Industrial Combustion Engine
 hbm:tile.machine_generator, Nuclear Reactor (Old)
 hbm:tile.machine_controller, Reactor Remote Control Block
 hbm:tile.machine_reactor_small, Research Reactor
@@ -2817,7 +2820,9 @@ hbm:tile.fluid_duct_box:11, Universal Fluid Duct (Boxduct)
 hbm:tile.fluid_duct_box:12, Universal Fluid Duct (Boxduct)
 hbm:tile.fluid_duct_box:13, Universal Fluid Duct (Boxduct)
 hbm:tile.fluid_duct_box:14, Universal Fluid Duct (Boxduct)
-hbm:tile.fluid_duct_solid, Coated Universal Fluid Duct
+hbm:tile.fluid_duct_paintable, Paintable Coated Universal Fluid Duct
+hbm:tile.fluid_duct_gauge, Flow Gauge Pipe
+hbm:tile.fluid_duct_solid, Coated Universal Fluid Duct (Deprecated)
 hbm:tile.radio_torch_sender, Redstone-over-Radio Transmitter
 hbm:tile.radio_torch_receiver, Redstone-over-Radio Receiver
 hbm:tile.crane_extractor, Conveyor Ejector
@@ -10032,15 +10037,6 @@ gregtech:gt.block.planks2:0, gt.block.planks2.0.name
 gregtech:gt.block.planks2.slab.0:0, gt.block.planks2.slab.0.0.name
 gregtech:gt.block.planks2.fireproof:0, gt.block.planks2.fireproof.0.name
 gregtech:gt.block.planks2.fireproof.slab.0:0, gt.block.planks2.fireproof.slab.0.0.name
-gregtech:gt.block.sapling:0, gt.block.sapling.0.name
-gregtech:gt.block.sapling:1, gt.block.sapling.1.name
-gregtech:gt.block.sapling:2, gt.block.sapling.2.name
-gregtech:gt.block.sapling:3, gt.block.sapling.3.name
-gregtech:gt.block.sapling:4, gt.block.sapling.4.name
-gregtech:gt.block.sapling:5, gt.block.sapling.5.name
-gregtech:gt.block.sapling:6, gt.block.sapling.6.name
-gregtech:gt.block.sapling:7, gt.block.sapling.7.name
-gregtech:gt.block.sapling.cd:0, gt.block.sapling.cd.0.name
 minecraft:record_13, Music Disc
 minecraft:record_cat, Music Disc
 minecraft:record_blocks, Music Disc
@@ -10053,6 +10049,15 @@ minecraft:record_strad, Music Disc
 minecraft:record_ward, Music Disc
 minecraft:record_11, Music Disc
 minecraft:record_wait, Music Disc
+gregtech:gt.block.sapling:0, gt.block.sapling.0.name
+gregtech:gt.block.sapling:1, gt.block.sapling.1.name
+gregtech:gt.block.sapling:2, gt.block.sapling.2.name
+gregtech:gt.block.sapling:3, gt.block.sapling.3.name
+gregtech:gt.block.sapling:4, gt.block.sapling.4.name
+gregtech:gt.block.sapling:5, gt.block.sapling.5.name
+gregtech:gt.block.sapling:6, gt.block.sapling.6.name
+gregtech:gt.block.sapling:7, gt.block.sapling.7.name
+gregtech:gt.block.sapling.cd:0, gt.block.sapling.cd.0.name
 gregtech:gt.block.leaves:0, gt.block.leaves.0.name
 gregtech:gt.block.leaves:1, gt.block.leaves.1.name
 gregtech:gt.block.leaves:2, gt.block.leaves.2.name
@@ -11726,6 +11731,7 @@ hbm:item.ingot_c4, Bar of Composition C-4
 hbm:item.oil_tar:0, Oil Tar
 hbm:item.oil_tar:1, Crack Oil Tar
 hbm:item.oil_tar:2, Coal Tar
+hbm:item.oil_tar:3, Wood Tar
 hbm:item.solid_fuel, Solid Fuel
 hbm:item.solid_fuel_presto, Presto Log
 hbm:item.solid_fuel_presto_triplet, Boosted Presto Logs
@@ -11796,7 +11802,9 @@ hbm:item.coke:1, Lignite Coke
 hbm:item.coke:2, Petroleum Coke
 hbm:item.lignite, Lignite
 hbm:item.coal_infernal, Infernal Coal
-hbm:item.briquette_lignite, Lignite Briquette
+hbm:item.briquette:0, Coal Briquette
+hbm:item.briquette:1, Lignite Briquette
+hbm:item.briquette:2, Sawdust Briquette
 hbm:item.sulfur, Sulfur
 hbm:item.niter, Niter
 hbm:item.fluorite, Fluorite
@@ -12288,6 +12296,10 @@ hbm:item.pellet_neptunium, Neptunium Watz Pellet
 hbm:item.pellet_lead, Lead Reflector Pellet
 hbm:item.pellet_advanced, Advanced Watz Performance Improver
 hbm:item.piston_selenium, Combustion Engine Piston
+hbm:item.piston_set:0, Steel Piston Set
+hbm:item.piston_set:1, High-Speed Steel Piston Set
+hbm:item.piston_set:2, Desh Piston Set
+hbm:item.piston_set:3, Starmetal Piston Set
 hbm:item.cell_empty, Empty Cell
 hbm:item.cell_uf6, Uranium Hexafluoride Cell
 hbm:item.cell_puf6, Plutonium Hexafluoride Cell
@@ -12358,9 +12370,12 @@ hbm:item.canister_full:46, Canister: Gasoline
 hbm:item.canister_full:73, Canister: Leaded Gasoline
 hbm:item.canister_full:47, Canister: Coal Gasoline
 hbm:item.canister_full:74, Canister: Leaded Coal Gasoline
+hbm:item.canister_full:80, Canister: Coal Tar Creosote
+hbm:item.canister_full:79, Canister: Wood Oil
 hbm:item.canister_full:27, Canister: Biofuel
 hbm:item.canister_full:59, Canister: Ethanol
 hbm:item.canister_full:28, Canister: NITAN© 100 Octane Super Fuel
+hbm:item.canister_full:81, Canister: Seeding Slurry
 hbm:item.canister_full:49, Canister: Fracking Solution
 hbm:item.canister_oil, Crude Oil Canister (LEGACY)
 hbm:item.canister_heavyoil, Heavy Oil Canister (LEGACY)
@@ -12435,12 +12450,15 @@ hbm:item.fluid_tank_full:46, Universal Fluid Tank: Gasoline
 hbm:item.fluid_tank_full:73, Universal Fluid Tank: Leaded Gasoline
 hbm:item.fluid_tank_full:47, Universal Fluid Tank: Coal Gasoline
 hbm:item.fluid_tank_full:74, Universal Fluid Tank: Leaded Coal Gasoline
+hbm:item.fluid_tank_full:80, Universal Fluid Tank: Coal Tar Creosote
+hbm:item.fluid_tank_full:79, Universal Fluid Tank: Wood Oil
 hbm:item.fluid_tank_full:26, Universal Fluid Tank: Biogas
 hbm:item.fluid_tank_full:27, Universal Fluid Tank: Biofuel
 hbm:item.fluid_tank_full:59, Universal Fluid Tank: Ethanol
 hbm:item.fluid_tank_full:28, Universal Fluid Tank: NITAN© 100 Octane Super Fuel
 hbm:item.fluid_tank_full:41, Universal Fluid Tank: BF Rocket Fuel
 hbm:item.fluid_tank_full:69, Universal Fluid Tank: Salient Green
+hbm:item.fluid_tank_full:81, Universal Fluid Tank: Seeding Slurry
 hbm:item.fluid_tank_full:35, Universal Fluid Tank: Hydrogen Peroxide
 hbm:item.fluid_tank_full:75, Universal Fluid Tank: Sulfuric Acid
 hbm:item.fluid_tank_full:32, Universal Fluid Tank: Schrabidic Acid
@@ -12504,12 +12522,15 @@ hbm:item.fluid_tank_lead_full:46, Hazardous Material Tank: Gasoline
 hbm:item.fluid_tank_lead_full:73, Hazardous Material Tank: Leaded Gasoline
 hbm:item.fluid_tank_lead_full:47, Hazardous Material Tank: Coal Gasoline
 hbm:item.fluid_tank_lead_full:74, Hazardous Material Tank: Leaded Coal Gasoline
+hbm:item.fluid_tank_lead_full:80, Hazardous Material Tank: Coal Tar Creosote
+hbm:item.fluid_tank_lead_full:79, Hazardous Material Tank: Wood Oil
 hbm:item.fluid_tank_lead_full:26, Hazardous Material Tank: Biogas
 hbm:item.fluid_tank_lead_full:27, Hazardous Material Tank: Biofuel
 hbm:item.fluid_tank_lead_full:59, Hazardous Material Tank: Ethanol
 hbm:item.fluid_tank_lead_full:28, Hazardous Material Tank: NITAN© 100 Octane Super Fuel
 hbm:item.fluid_tank_lead_full:41, Hazardous Material Tank: BF Rocket Fuel
 hbm:item.fluid_tank_lead_full:69, Hazardous Material Tank: Salient Green
+hbm:item.fluid_tank_lead_full:81, Hazardous Material Tank: Seeding Slurry
 hbm:item.fluid_tank_lead_full:35, Hazardous Material Tank: Hydrogen Peroxide
 hbm:item.fluid_tank_lead_full:75, Hazardous Material Tank: Sulfuric Acid
 hbm:item.fluid_tank_lead_full:32, Hazardous Material Tank: Schrabidic Acid
@@ -12574,12 +12595,15 @@ hbm:item.fluid_barrel_full:46, Fluid Barrel: Gasoline
 hbm:item.fluid_barrel_full:73, Fluid Barrel: Leaded Gasoline
 hbm:item.fluid_barrel_full:47, Fluid Barrel: Coal Gasoline
 hbm:item.fluid_barrel_full:74, Fluid Barrel: Leaded Coal Gasoline
+hbm:item.fluid_barrel_full:80, Fluid Barrel: Coal Tar Creosote
+hbm:item.fluid_barrel_full:79, Fluid Barrel: Wood Oil
 hbm:item.fluid_barrel_full:26, Fluid Barrel: Biogas
 hbm:item.fluid_barrel_full:27, Fluid Barrel: Biofuel
 hbm:item.fluid_barrel_full:59, Fluid Barrel: Ethanol
 hbm:item.fluid_barrel_full:28, Fluid Barrel: NITAN© 100 Octane Super Fuel
 hbm:item.fluid_barrel_full:41, Fluid Barrel: BF Rocket Fuel
 hbm:item.fluid_barrel_full:69, Fluid Barrel: Salient Green
+hbm:item.fluid_barrel_full:81, Fluid Barrel: Seeding Slurry
 hbm:item.fluid_barrel_full:35, Fluid Barrel: Hydrogen Peroxide
 hbm:item.fluid_barrel_full:75, Fluid Barrel: Sulfuric Acid
 hbm:item.fluid_barrel_full:32, Fluid Barrel: Schrabidic Acid
@@ -12706,6 +12730,9 @@ hbm:item.scraps:7900, Foundry Scraps
 hbm:item.scraps:1, Foundry Scraps
 hbm:item.scraps:2, Foundry Scraps
 hbm:item.scraps:2601, Foundry Scraps
+hbm:item.scraps:2602, Foundry Scraps
+hbm:item.scraps:2603, Foundry Scraps
+hbm:item.scraps:2604, Foundry Scraps
 hbm:item.scraps:2901, Foundry Scraps
 hbm:item.scraps:9200, Foundry Scraps
 hbm:item.scraps:9233, Foundry Scraps
@@ -12863,12 +12890,15 @@ hbm:item.fluid_identifier:46, Fluid Identifier
 hbm:item.fluid_identifier:73, Fluid Identifier
 hbm:item.fluid_identifier:47, Fluid Identifier
 hbm:item.fluid_identifier:74, Fluid Identifier
+hbm:item.fluid_identifier:80, Fluid Identifier
+hbm:item.fluid_identifier:79, Fluid Identifier
 hbm:item.fluid_identifier:26, Fluid Identifier
 hbm:item.fluid_identifier:27, Fluid Identifier
 hbm:item.fluid_identifier:59, Fluid Identifier
 hbm:item.fluid_identifier:28, Fluid Identifier
 hbm:item.fluid_identifier:41, Fluid Identifier
 hbm:item.fluid_identifier:69, Fluid Identifier
+hbm:item.fluid_identifier:81, Fluid Identifier
 hbm:item.fluid_identifier:35, Fluid Identifier
 hbm:item.fluid_identifier:75, Fluid Identifier
 hbm:item.fluid_identifier:32, Fluid Identifier
@@ -12936,12 +12966,15 @@ hbm:item.fluid_icon:46, Gasoline
 hbm:item.fluid_icon:73, Leaded Gasoline
 hbm:item.fluid_icon:47, Coal Gasoline
 hbm:item.fluid_icon:74, Leaded Coal Gasoline
+hbm:item.fluid_icon:80, Coal Tar Creosote
+hbm:item.fluid_icon:79, Wood Oil
 hbm:item.fluid_icon:26, Biogas
 hbm:item.fluid_icon:27, Biofuel
 hbm:item.fluid_icon:59, Ethanol
 hbm:item.fluid_icon:28, NITAN© 100 Octane Super Fuel
 hbm:item.fluid_icon:41, BF Rocket Fuel
 hbm:item.fluid_icon:69, Salient Green
+hbm:item.fluid_icon:81, Seeding Slurry
 hbm:item.fluid_icon:35, Hydrogen Peroxide
 hbm:item.fluid_icon:75, Sulfuric Acid
 hbm:item.fluid_icon:32, Schrabidic Acid
@@ -13014,12 +13047,15 @@ hbm:item.fluid_duct:46, Fluid Duct: Gasoline
 hbm:item.fluid_duct:73, Fluid Duct: Leaded Gasoline
 hbm:item.fluid_duct:47, Fluid Duct: Coal Gasoline
 hbm:item.fluid_duct:74, Fluid Duct: Leaded Coal Gasoline
+hbm:item.fluid_duct:80, Fluid Duct: Coal Tar Creosote
+hbm:item.fluid_duct:79, Fluid Duct: Wood Oil
 hbm:item.fluid_duct:26, Fluid Duct: Biogas
 hbm:item.fluid_duct:27, Fluid Duct: Biofuel
 hbm:item.fluid_duct:59, Fluid Duct: Ethanol
 hbm:item.fluid_duct:28, Fluid Duct: NITAN© 100 Octane Super Fuel
 hbm:item.fluid_duct:41, Fluid Duct: BF Rocket Fuel
 hbm:item.fluid_duct:69, Fluid Duct: Salient Green
+hbm:item.fluid_duct:81, Fluid Duct: Seeding Slurry
 hbm:item.fluid_duct:35, Fluid Duct: Hydrogen Peroxide
 hbm:item.fluid_duct:75, Fluid Duct: Sulfuric Acid
 hbm:item.fluid_duct:32, Fluid Duct: Schrabidic Acid
@@ -14457,6 +14493,8 @@ hbm:item.v1, V1
 hbm:item.protection_charm, Charm of Protection
 hbm:item.meteor_charm, Meteor Charm
 hbm:item.neutrino_lens, Neutrino Lens
+hbm:item.gas_tester, Gas Sensor
+hbm:item.defuser_gold, Golden Wire Cutter
 hbm:item.chocolate_milk, Chocolate Milk
 hbm:item.cbt_device, CBT Device
 hbm:item.cigarette, FFI-Brand Cigarette
