@@ -22,3 +22,4 @@ config/AppliedEnergistics2/recipes/items.csv
 config/AppliedEnergistics2/CustomRecipes.cfg
 
 config/autopickup.cfg
+config/gregtech/materiallist.log
