@@ -35,6 +35,7 @@ config/Netherlicious/*
 !config/chisel.cfg
 !config/coretweaks.cfg
 !config/defaultworldgenerator.cfg
+!config/DimDoors.cfg
 !config/hodgepodge.cfg
 !config/hodgepodgeEarly.properties
 !config/IGWMod.cfg
