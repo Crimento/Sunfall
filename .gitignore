@@ -1,25 +1,11 @@
 # everything
 /*
-# but not gitignore
+# but not gitignore and license
 !.gitignore
-# add license
 !LICENSE.MD
-# and not config dir
-!/config
+# configs
 
-#those can be regenerated
-config/worldedit
-config/recipes
-config/falsetweaks_userspecific.cfg
-config/InvTweaks.cfg
-config/splash.properties
-config/worldedit/worldedit.properties
-config/gregtech/materiallist.log
-config/autopickup.cfg
+# scripts
 
-#AE2
-config/AppliedEnergistics2/recipes/items.csv
-config/AppliedEnergistics2/CustomRecipes.cfg
 
-config/autopickup.cfg
-config/gregtech/materiallist.log
+
