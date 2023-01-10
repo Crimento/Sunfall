@@ -37,6 +37,9 @@ config/Netherlicious/*
 !config/coretweaks.cfg
 !config/defaultworldgenerator.cfg
 !config/DimDoors.cfg
+!config/falsetweaks.cfg
+!config/foamfix.cfg
+!config/hbm.cfg
 !config/hodgepodge.cfg
 !config/hodgepodgeEarly.properties
 !config/IGWMod.cfg
