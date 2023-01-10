@@ -1,11 +1,45 @@
 # everything
 /*
+
 # but not gitignore and license
 !.gitignore
 !LICENSE.MD
+
 # configs
+!config
+config/*
+
+!config/AppliedEnergistics2
+config/AppliedEnergistics2/*
+!config/AppliedEnergistics2/AppliedEnergistics2.cfg
+!config/AppliedEnergistics2/extracells.cfg
+
+!config/betterquesting
+
+!config/cofh
+config/cofh/core/*
+!config/cofh/core/common.cfg
+
+!config/FlenixCities
+config/FlenixCities/*
+!config/FlenixCities/FlenixCities_Core.cfg
+
+!config/Netherlicious
+config/Netherlicious/*
+!config/Netherlicious/Biome_Configuration.cfg
+!config/Netherlicious/Worldgeneration_Configuration.cfg
+
+!config/Wasteland
+
+!config/betterquesting.cfg
+!config/chisel.cfg
+!config/coretweaks.cfg
+!config/defaultworldgenerator.cfg
+!config/hodgepodge.cfg
+!config/hodgepodgeEarly.properties
+!config/IGWMod.cfg
+!config/LunatriusCore.cfg
+!config/OpenBlocks.cfg
+!config/OpenComputers.cfg
 
 # scripts
-
-
-

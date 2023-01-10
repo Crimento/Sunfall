@@ -1,0 +1,1544 @@
+{
+  "format:8": "2.0.0",
+  "questDatabase:9": {
+    "0:10": {
+      "questID:3": 0,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:crafting_table",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[0] Пару слов",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "В первую очередь, спасибо за то, что скачали этот пак.\n\nЭто заведомо устаревшая версия Minecraft, но это все еще Minecraft, а я пытаюсь сделать этот опыт максимально приятным.\n\nПрошу внимательно прочесть следующие квесты, там будет много важной информации и награды.\n\nВ целом, я пытался создать пак на основе GregTech 6 (который незаслуженно обделен вниманием на фоне существования GTNH!), который бы сочетал в себе как сложность крафта и большое технологическое дерево из GT, так и не утомлял бы игроков бесконечным грайндом.\nДобавьте сюда необычный сеттинг постапокалипсиса и обилие способов уничтожения себе подобных и получится что-то необычное.\n\nПо всем вопросам доступен для связи в Discord."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "1:10": {
+      "questID:3": 1,
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:sapling",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[0] Ворлдген",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "От Земли не осталось практически ничего, что напоминало бы о ее лучших днях.\nРастительность практически полностью уничтожена, а почва опустынена.\n\nСамое важное:\n\n- основные руды доступны прямо на поверхности и их можно добывать голыми руками. Медь, олово, свинец и даже уголь и их разновидности будут постоянно попадаться под ногами\n- деревья мертвы, саженцы погибли. Кто-то пытался укрывать их глиной, но и это не помогло.\n- земля - редкий и ограниченный ресурс\n- воды вообще не осталось кроме той, что продолжает лить с неба. Она уходит слишком глубоко в песок, чтобы скапливаться в лужи и озера\n- камни на земле можно подбирать руками (правой кнопкой). Если попался камень с вкраплениями какого-то ресурса - в этом чанке 100% есть какой-то запас этого ресурса."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "2:10": {
+      "questID:3": 2,
+      "preRequisites:11": [
+        19
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:bed",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[0] Убежище",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "А как §mкакать?§r спать? А точнее, где?\nСтартовый бункер - не очень хорошее убежище, да и возможно, что рядом есть какой-то все еще активный источник радиации.\n\nЛучшее убежище для начала - тоннели на проходящих по остаткам мира дорогах. Достаточный уровень освещения оградит от монстров, а сохранившееся асфальтовое покрытие поможет быстро добраться до других локаций."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:bed",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "3:10": {
+      "questID:3": 3,
+      "preRequisites:11": [
+        19
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "hbm:item.canned_beef",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[0] Еда",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "С едой будут проблемы, но запас консервов еще остался.\n\nНадо бы не съесть все и сразу.\n\nДа и вообще, что они мне оставили? Мясо или рыба?"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "hbm:item.canned_beef",
+              "Count:3": 32,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "hbm:item.canned_tuna",
+              "Count:3": 32,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "4:10": {
+      "questID:3": 4,
+      "preRequisites:11": [
+        21
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:stick",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[1] К слову о палках",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "О, палка.\n\nЧто она тут делает? Видимо нужна зачем-то"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:stick",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "5:10": {
+      "questID:3": 5,
+      "preRequisites:11": [
+        4
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.metatool.01",
+            "Count:3": 1,
+            "tag:10": {
+              "ench:9": {
+                "0:10": {
+                  "lvl:2": 1,
+                  "id:2": 20
+                }
+              },
+              "GT.ToolStats:10": {
+                "a:2": 8002,
+                "d:8": "AnyWood",
+                "j:2": 4800
+              }
+            },
+            "Damage:2": 34,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[1] ооо НОЖИЧЕК",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Мммм резать резать резать\n\nТак, стоп, кого резать, чем резать?\n\nСделать ножик из кремня! Вот зачем нужна была палка!\n\nКремень есть в достаточном количестве вдоль старых автострад, асфальт лежит на подушке из гравия.\n\n(спойлер, для крафта ножа из кремня смотреть последние страницы рецептов)"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {
+                  "0:10": {
+                    "lvl:2": 1,
+                    "id:2": 20
+                  }
+                },
+                "GT.ToolStats:10": {
+                  "a:2": 8002,
+                  "d:8": "AnyWood",
+                  "j:2": 4800
+                }
+              },
+              "Damage:2": 34,
+              "OreDict:8": "craftingToolKnife"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "6:10": {
+      "questID:3": 6,
+      "preRequisites:11": [
+        5
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.metatool.01",
+            "Count:3": 1,
+            "tag:10": {
+              "ench:9": {},
+              "GT.ToolStats:10": {
+                "a:2": 8002,
+                "d:8": "AnyWood",
+                "j:2": 4800
+              }
+            },
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[1] Первые инструменты",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Пора применять свой нож!\n\nПалки в достаточном количестве можно получить собирая ножом мертвые кусты.\n\nТопор и лопату можно сделать в сетке крафта 2x2.\n\nВсе инструменты кроме дубинки можно сделать из кремня, для остального понадобятся камни другого типа. Также инструменты можно делать из камней, но они не так эффективны, как сделанные из кремня.\n\nТопором можно снимать кору с деревьев, а так же срубать деревья у основания\n\nДубинка похожа по функционалу на кирку, но так же служит тупым оружием и сразу измельчает добываемые ресурсы, однако ломается быстрее."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {},
+                "GT.ToolStats:10": {
+                  "a:2": 8002,
+                  "d:8": "AnyWood",
+                  "j:2": 4800
+                }
+              },
+              "Damage:2": 4,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {
+                  "0:10": {
+                    "lvl:2": 1,
+                    "id:2": 20
+                  }
+                },
+                "GT.ToolStats:10": {
+                  "a:2": 8002,
+                  "d:8": "AnyWood",
+                  "j:2": 4800
+                }
+              },
+              "Damage:2": 6,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {},
+                "GT.ToolStats:10": {
+                  "a:2": 8002,
+                  "d:8": "AnyWood",
+                  "j:2": 4800
+                }
+              },
+              "Damage:2": 2,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {},
+                "GT.ToolStats:10": {
+                  "a:2": 8511,
+                  "d:8": "AnyWood",
+                  "j:2": 1600
+                }
+              },
+              "Damage:2": 24,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "7:10": {
+      "questID:3": 7,
+      "preRequisites:11": [
+        5
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:furnace",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[1] Приручение огня",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Есть нож? Отлично! Время собирать еще немного палок и срезать кору с мертвых деревьев (dead log, они отличаются блеклым цветом). Не путать с обугленными деревьями, им уже ничего не поможет, но из них выйдет неплохое топливо.\n\nИз мертвой коры можно сделать розжиг, который можно использовать или как одноразовую зажигалку, или как компонент для печки.\n\nКрафтим печку!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.randomtools",
+              "Count:3": 1,
+              "Damage:2": 5015,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:furnace",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "8:10": {
+      "questID:3": 8,
+      "preRequisites:11": [
+        6,
+        7
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.meta.ingot",
+            "Count:3": 1,
+            "Damage:2": 290,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[1] Собирательство",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Помните, что я сказал, что в паке не будет гринда?\n\nТак вот, я обманул.\n\nНа самом деле нет, но надо же убедиться в том, что вы сможете эти ресурсы достать самостоятельно?\n\n\nПара советов:\n§e\nПродолжайте собирать камни на земле. При обнаружении камней с вкраплениями (*** bearing stone), отметьте эту точку на карте. В чанке есть месторождение этого элемента.\n\nСреди камней могут попасться куски метеоритов, это железо в чистом виде, которое может в дальнейшем облегчить жизнь. Не тратьте, если нашли.\n\nНе расходуйте обычный уголь на топливо и факелы, он позднее пригодится для производства железных слитков. Используйте обугленные деревья для растопки"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.meta.ingot",
+              "Count:3": 12,
+              "Damage:2": 290,
+              "OreDict:8": "ingotAnyCopper"
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.meta.ingot",
+              "Count:3": 4,
+              "Damage:2": 500,
+              "OreDict:8": "ingotTin"
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.meta.ingot",
+              "Count:3": 8,
+              "Damage:2": 820,
+              "OreDict:8": "ingotLead"
+            },
+            "3:10": {
+              "id:8": "minecraft:coal",
+              "Count:3": 32,
+              "Damage:2": 1,
+              "OreDict:8": "gemAnyCoalCarbon"
+            },
+            "4:10": {
+              "id:8": "minecraft:clay_ball",
+              "Count:3": 32,
+              "Damage:2": 0,
+              "OreDict:8": "itemClay"
+            },
+            "5:10": {
+              "id:8": "gregtech:gt.meta.crushed",
+              "Count:3": 16,
+              "Damage:2": 9104,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.meta.ingot",
+              "Count:3": 48,
+              "Damage:2": 290,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.meta.ingot",
+              "Count:3": 16,
+              "Damage:2": 500,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.meta.ingot",
+              "Count:3": 32,
+              "Damage:2": 820,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "minecraft:coal",
+              "Count:3": 128,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "minecraft:clay_ball",
+              "Count:3": 128,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "5:10": {
+              "id:8": "gregtech:gt.meta.rockGt",
+              "Count:3": 16,
+              "Damage:2": 8649,
+              "OreDict:8": ""
+            },
+            "6:10": {
+              "id:8": "gregtech:gt.meta.crushed",
+              "Count:3": 32,
+              "Damage:2": 9104,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "9:10": {
+      "questID:3": 9,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 1005,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[2] Котёл",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "А вот и главный мем из шестой гречки. Страх и ненависть всех, кто об этом помнит.\n\nСуществует в нескольких вариациях, но для начала рекомендую вариант из глины/керамики.\n\nВзрыво и огнеопасно! Лучше выделить участок размером 7х7 во избежания воспламенения."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 1005,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "10:10": {
+      "questID:3": 10,
+      "preRequisites:11": [
+        9
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 1100,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[2] Больше огня!",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Котел надо чем-то подогревать, чтобы в нем что-то плавить.\n\nДля этого есть достаточный выбор нагревателей, как ручных, так и автоматических, но пока в распоряжении будет только простая камера сгорания.\n\nСамые простые (и неэффективные) варианты это кирпич или кирпич со свинцовой обшивкой."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 1100,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "11:10": {
+      "questID:3": 11,
+      "preRequisites:11": [
+        10
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multiitem.technological",
+            "Count:3": 1,
+            "Damage:2": 1028,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[2] Еще о котлах",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Как работают котлы?\n\nНужно закинуть ингредиенты в нужной пропорции, растопить камеру сгорания, дождаться, пока масса в котле станет однородной и слить в нужную форму.\n\nВроде звучит просто, но по каждому пункту есть свои нюансы.\n\n1. У всех рецептов есть температура сплавления. Для каких-то вещей она может превышать температурный предел котла. Если его превысить - §4котёл взорвется, уничтожит ресурсы внутри и подожжет все вокруг, что можно поджечь §r(я не просто так говорил про место участок 7х7)\n\n2. Камера сгорания не имеет интерфейса, в нее можно засунуть любое твердое топливо (уголь, саженцы и подобное) и поджечь. Тушить можно, поставив любой блок перед лицом горелки.\nРекомендую использовать или каменную стену, или кусок стекла на поршне, чтобы иметь возможность как погасить камеру, так и видеть, когда она прекратит гореть.\nОчень важный момент - §6камера не потухнет и не перестанет разогревать котёл, пока не догорит текущая единица топлива. §rПоэтому начинать стоит с низкокачественного топлива вроде лигнита или древесного угля.\nТакже камера сгорания может забиться сажей, которую можно достать правым кликом по камере.\nСажу выбрасывать не стоит, потом можно использовать как ингредиент для цемента.\n\n3. Тут, на удивление, все просто. §6Когда смесь в котле станет однородной, ее цвет изменится. §rХорошая практика - дождаться, пока камера перестанет гореть и начать отливать формы. §c§4При уменьшении объема материалов в котле нагрев будет намного быстрее и есть серьезная опасность взрыва котла\n\n§r4. Тут тоже ничего сложного, формы (mold) крафтятся из глины, прикладывается предмет нужной формы (например, слиток или наконечник инструмента) и получается форма нужного типа, которую можно обжечь в печи и использовать для отлива.\n§§§4Предметам после отлива нужно какое-то время, чтобы остыть, иначе можно получить серьезные ожоги.\n\n§rУбрать из котла остатки (scraps) можно лопатой (после того, как он остынет).\n\nТак же котёл можно использовать для переработки инструментов. Например, закинув железную кирку в котёл можно переплавить это железо обратно в слитки."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "12:10": {
+      "questID:3": 12,
+      "preRequisites:11": [
+        11
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.stone.limestone",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[2] Опять камни...",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Стоп, секунду, на кой хер мне вообще камни?\n\nВот только это не просто камень, а мать его за ногу, §6ИЗВЕСТНЯК§r (Limestone). \n\nОбычно попадается в горах на высоте 80-90 блоков, но бывают исключения.\n\nВот это добро надо переплавить в слитки. Сделать это можно только с помощью котла, а зачем именно - объясню попозже"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.meta.ingot",
+              "Count:3": 4,
+              "Damage:2": 9107,
+              "OreDict:8": "ingotAnyCalcite"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.meta.ingot",
+              "Count:3": 4,
+              "Damage:2": 9107,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "13:10": {
+      "questID:3": 13,
+      "preRequisites:11": [
+        12
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:iron_ingot",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[2] В смысле железо",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "У нас же тут бронза, не?\n\nДа, но какие-то вещи для упрощения жизни хорошо иметь и до полноценной работы с железом, правда?\n\nВот тут и пригодятся камни из прошлого квеста.\n\nНужно закинуть в котел §6гематит (hematite)§r, §6уголь (только каменный, не древесный/коксовый)§r и §6слиток известняка §rв пропорциях 5:1:1\n\nПолучившуюся жижу отлить в слитки, получится железо. Для полноценной переплавки это сложный метод, но есть пара железных вещей, которые стоит сделать прямо сейчас.\n\nА еще я обещал пак (почти) без гринда и железа понадобится явно больше, но для начала пусть будет\n\nДля следующих крафтов также понадобится наковальня (из GregTech, не HBM, не перепутать). Прошу обратить особое внимание на рецепты, потому что в рецептах имеет значение с какой стороны наковальни ставить предмет."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": "ingotAnyIron"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 12,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "14:10": {
+      "questID:3": 14,
+      "preRequisites:11": [
+        13
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:bucket",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[2] Нет блед айфон",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Ну ладно, все таки ведро. А еще лучше два ведра!\n\nСделать бесконечный источник воды из этого не получится, он тут отключен, но этот вопрос тоже решаем."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:bucket",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:bucket",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "15:10": {
+      "questID:3": 15,
+      "preRequisites:11": [
+        13
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 32702,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[2] Сито",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Консервы уже наверняка заканчиваются, а есть что-то нужно.\n\nГде взять семена если почти вся земля иссушена? Ну, наверняка где-то остались семена. Правда придется пропустить землю через сито, чтобы что-то там найти. Будем надеяться, что там реально что-то осталось..."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 32702,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "16:10": {
+      "questID:3": 16,
+      "preRequisites:11": [
+        13
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multiitem.technological",
+            "Count:3": 1,
+            "Damage:2": 1020,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[2] Слив засчитан",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Еще одна вещь, необходимая для дальнейшей жизни вещь в виду остутствия источников воды.\n\nЭта штука будет собирать все источники жидкостей над собой и сливать их в трубы.\n\n§bТакже это работает с опытом и позволяет безопасно хранить его в контейнерах"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.technological",
+              "Count:3": 1,
+              "Damage:2": 1020,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "17:10": {
+      "questID:3": 17,
+      "preRequisites:11": [
+        14,
+        15,
+        16
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:flowing_water",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[2] водичка",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Нужна вода. Дальше без нее никак.\n\nКак хорошо, что даже после ядерного конфликта в этом мире все еще идет дождь. Не уверен насчет пригодности для питья, но тут и выбора то особого нет. Главный вопрос, а где хранить и как собирать?\n\nТут в принципе все просто:\n\nВо-первых, нужны резервуары. В нормальной ситуации нужен обсидиан, но я сделал поправку на необходимость в воде пораньше.\n\nВо-вторых, нужны трубы, чтобы подключить слив к резервуару. \n\nЕсли все повезет, то с ближайшим дождем резервуар будет наполняться водой."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 26102,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "OpenBlocks:tank",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "18:10": {
+      "questID:3": 18,
+      "preRequisites:11": [
+        11
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.meta.ingot",
+            "Count:3": 1,
+            "Damage:2": 8610,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[2] Изготовление бронзы",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "WIP"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "19:10": {
+      "questID:3": 19,
+      "preRequisites:11": [
+        1
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multiitem.technological",
+            "Count:3": 1,
+            "Damage:2": 1028,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[0] Радиация",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Мир полон очагов радиации.\n\nОсобенно этим грешат озера радиоактивных отходов и в меньшей степени заброшенные технологические объекты.\n\nНегативные эффекты разнятся от тошноты и голода при лёгком облучении до мгновенной смерти.\n\nВсе мы любим блевать кровью, не правда ли? В бункере сохранился счётчик Гейгера, пригодится для того, чтобы не попасть под фон."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "hbm:item.geiger_counter",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "20:10": {
+      "questID:3": 20,
+      "preRequisites:11": [
+        19
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "hbm:item.powder_coal",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[0] Занюхни угля",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Возьми угля в руку и занюхни"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "hbm:item.powder_coal",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "21:10": {
+      "questID:3": 21,
+      "preRequisites:11": [
+        2,
+        3,
+        20
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "hbm:item.gas_mask",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[0] Чистый воздух?",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Занюхнул? Молодец. Теперь выкинь этот кусок и никогда к нему не возвращайся без нормальной защиты для своих лёгких.\n\nЭтот мир полон мелких частиц, оказывающих негативное воздействие на лёгкие.\n\n§cАсбест§r накапливается в лёгких при работе с ним. Опасен тем, что в один прекрасный момент лёгкие могут забиться окончательно и вы умрёте.\n\nПохожим способом (но по-другому) работает §cугольная пыль.§r В отличии от асбеста эффект от угольной пыли будет сначала заметен в виде утяжеленного дыхания, а позднее и кровавого кашля.\n\nЭффекты как асбеста, так и угольной пыли (а еще и некоторых других вредных воздействий) блокируется противогазом. Главное не забывать своевременно менять фильтры.\n\nЕсли уж словили свою дозу асбеста или угольной пыли - вывести поможет §aSiOx§r. Не пытайтесь повторить это дома! В реальной жизни никаких средств излечить это нет."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "hbm:item.gas_mask",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "hbm:item.gas_mask_filter",
+              "Count:3": 3,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    }
+  },
+  "questLines:9": {
+    "0:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 0,
+          "id:3": 0,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 48,
+          "id:3": 1,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": -36,
+          "y:3": 120,
+          "id:3": 2,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": 120,
+          "id:3": 3,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 84,
+          "id:3": 19,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 120,
+          "id:3": 20,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 156,
+          "id:3": 21,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 0,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "0. О дивный новый мир",
+          "icon:10": {
+            "id:8": "OpenBlocks:infoBook",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "Полезная информация"
+        }
+      },
+      "order:3": 0
+    },
+    "1:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 0,
+          "id:3": 4,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 48,
+          "id:3": 5,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": -36,
+          "y:3": 96,
+          "id:3": 6,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": 96,
+          "id:3": 7,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 144,
+          "id:3": 8,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 1,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "1. Из говна и палок",
+          "icon:10": {
+            "id:8": "minecraft:stick",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "No Description"
+        }
+      },
+      "order:3": 1
+    },
+    "2:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 0,
+          "id:3": 9,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 48,
+          "id:3": 10,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 96,
+          "id:3": 11,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": -48,
+          "y:3": 96,
+          "id:3": 12,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": -96,
+          "y:3": 96,
+          "id:3": 13,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": -144,
+          "y:3": 60,
+          "id:3": 14,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": -144,
+          "y:3": 96,
+          "id:3": 15,
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": -144,
+          "y:3": 132,
+          "id:3": 16,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": -192,
+          "y:3": 96,
+          "id:3": 17,
+          "sizeY:3": 24
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 144,
+          "id:3": 18,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 2,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "2. Бронзовый век",
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 1005,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "No Description"
+        }
+      },
+      "order:3": 2
+    }
+  },
+  "questSettings:10": {
+    "betterquesting:10": {
+      "livesMax:3": 10,
+      "pack_name:8": "",
+      "home_anchor_y:5": 0.0,
+      "livesDef:3": 3,
+      "home_anchor_x:5": 0.5,
+      "hardcore:1": 0,
+      "home_image:8": "blackmine:sunfall_title.png",
+      "party_enable:1": 1,
+      "pack_version:3": 0,
+      "editMode:1": 1,
+      "home_offset_x:3": -128,
+      "home_offset_y:3": 0
+    }
+  }
+}
